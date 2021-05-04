@@ -1,0 +1,15 @@
+{
+  "name": "insomnia-plugin-cookie-decode",
+  "version": "0.0.1",
+  "author": "Jona Goldman <https://github.com/jonagoldman>",
+  "description": "Decode cookie value from the cookie jar or the current request",
+  "main": "index.js",
+  "insomnia": {
+    "name": "cookie-decode",
+    "description": "Decode cookie value from the cookie jar or the current request"
+  },
+  "dependencies": {
+    "insomnia-cookies": "^2.2.24",
+    "insomnia-url": "^2.2.35"
+  }
+}
